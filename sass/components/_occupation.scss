@@ -1,0 +1,35 @@
+.occupation {
+  padding-bottom: 94px;
+}
+.occupation__list {
+  display: inline-flex;
+  padding-top: 50px;
+}
+
+.occupation__item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.shadow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white);
+}
+
+.shadow__desciption {
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
